@@ -1,0 +1,10 @@
+import moeda
+print('-=-'*12)
+valor = float(input('Digite o preço: R$ '))
+taxa = float(input('Informe a taxa: '))
+print('-=-'*12)
+print(f'Aumento de {taxa}% sobre {moeda.moeda(valor)} = {moeda.moeda(moeda.aumentar(valor, taxa))}')
+print(f'Diminuição de {taxa}% sobre {moeda.moeda(valor)} = {moeda.moeda(moeda.diminuir(valor, taxa))}')
+print(f'Dobro de {moeda.moeda(valor)} = {moeda.moeda(moeda.dobro(valor))}')
+print(f'Metade {moeda.moeda(valor)} = {moeda.moeda(moeda.metade(valor))}')
+print('-=-'*12)
