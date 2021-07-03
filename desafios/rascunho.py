@@ -1,5 +1,0 @@
-dados = dict()
-lista = list()
-dados["nome"] = input('Nome: ')
-lista.append(dados["nome"])
-print(lista)
