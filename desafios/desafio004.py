@@ -1,0 +1,10 @@
+print('-=-'*10)
+n = input('Digite algo: ')
+print('-=-'*10)
+
+print('É número:', n.isnumeric())
+print('É alfabético:', n.isalpha())
+print('É alfnumérico:', n.isalnum())
+print('Está tudo maiúsculo: ', n.isupper())
+print('Está tudo minúsculo: ', n.islower())
+print('Está capitalizado: ', n.istitle())
